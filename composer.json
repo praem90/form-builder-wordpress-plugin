@@ -1,0 +1,33 @@
+{
+    "name": "praem90/form_builder",
+    "description": "Allows you to create forms dynamically",
+    "type": "wordpress-plugin",
+    "autoload": {
+        "psr-4": {
+            "Praem90\\FormBuilder\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Mohan Raj",
+            "email": "praem1990@gmail.com"
+        }
+    ],
+    "require-dev": {
+        "woocommerce/woocommerce-sniffs": "^0.1.3",
+        "typisttech/imposter-plugin": "^0.6.2"
+    },
+    "config": {
+        "allow-plugins": {
+            "dealerdirect/phpcodesniffer-composer-installer": true,
+            "typisttech/imposter-plugin": true
+        }
+    },
+    "extra": {
+    	"imposter": {
+        	"namespace": "Praem90\\FormBuilder\\Vendor",
+        	"excludes": [
+        	]
+    	}
+	}
+}

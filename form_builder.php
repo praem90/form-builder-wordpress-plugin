@@ -14,3 +14,7 @@
  * Text Domain:       form-builder
  * Domain Path:       /languages
  */
+
+require './vendor/autoload.php';
+
+
