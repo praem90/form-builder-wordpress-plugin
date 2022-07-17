@@ -15,6 +15,7 @@
  * Domain Path:       /languages
  */
 
-require './vendor/autoload.php';
+require __DIR__ . '/vendor/autoload.php';
 
-
+\Praem90\FormBuilder\FormBuilder::boot();
+\Praem90\FormBuilder\FormBuilder::basename( plugin_basename( __FILE__ ) );
